@@ -12,7 +12,7 @@ body{
     outline: none !important;
 }
 .bg-black{
-    background: #000;
+    background: rgb(121, 36, 36);
 }
 /*=========Slider Section ============*/
 .carousel-item{
@@ -20,29 +20,29 @@ body{
 }
 .carousel-image-1{
     background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)), 
-    url('./Images/hero-image.jpg');
+    url('/images/Unknown-1.jpeg');
     background-size: cover;
 }
 .carousel-image-2{
     background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),
-     url('./Images/image9.jpg');
+     url('images/Unknown-2.jpeg');
     background-size: cover;
 }
 .carousel-image-3{
     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),
-     url('./Images/image1.jpg');
+     url('images/Unknown-7.jpeg');
     background-size: cover;
 }
 .h-color{
-    color:#fff;
+    color:rgb(255, 255, 255);
 
 }
 .btn-color{
-    background: #000;
+    background: rgb(131, 131, 131);
     color: #fff;
 }
 .btn-color:hover{
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 /* Wobble Vertical */
 @-webkit-keyframes slide-btn {
@@ -95,7 +95,7 @@ body{
     display: inline-block;
     vertical-align: middle;
     transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 1px rgba(153, 153, 153, 0);
   }
   .slide-btn:hover, .slide-btn:focus, .slide-btn:active {
     
@@ -116,7 +116,7 @@ body{
   /*======End of Service Section====*/
   /*=======Products section=======*/
   #products{
-    background:#000;
+    background:rgb(196, 178, 178);
   }
   .product-title{
     color: #fff;
@@ -126,7 +126,7 @@ body{
   display: inline-block;
   vertical-align: middle;
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgb(247, 241, 241);
+  box-shadow: 0 0 1px rgb(255, 255, 255);
   position: relative;
   transition-duration: 0.3s;
   transition-property: transform;
@@ -327,10 +327,13 @@ body{
 }
 /*==Footer===*/
 .footer{
-  background: #000;
+  background: rgb(121, 36, 36);
   color: #fff;
 }
 .fab{
   padding-left: 10px;
 }
 
+.bruh {
+  width: 20px;
+}
