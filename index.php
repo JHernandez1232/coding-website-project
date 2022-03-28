@@ -25,6 +25,8 @@
   
 
   ?>
-
+<a href = "array.php">
+  <button>array</button>
+</a>
   </body>
 </html>
