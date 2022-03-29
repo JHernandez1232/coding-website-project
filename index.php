@@ -28,5 +28,13 @@
 <a href = "array.php">
   <button>array</button>
 </a>
+
+<a href = "calculator.php">
+  <button> calculator1</button>
+</a>
+
+
+
+
   </body>
 </html>
