@@ -23,6 +23,7 @@
   $name = $_GET ['person'];
   echo $name." goes on to say that harsh likes to fly like a pony!!";
   
+  include 'header.php';
 
   ?>
 <a href = "array.php">
@@ -38,6 +39,16 @@
 
 <a href = "switch.php">
   <button>switch</button>
+
+  <a href = "header.php">
+  <button>header</button>
+
+ 
+
+  <section>
+    <div class="someMainContent">
+        <h1>Hi there!</h1>
+    </section>
 
   </body>
 </html>

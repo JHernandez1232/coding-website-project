@@ -15,6 +15,8 @@ $names = array("Nil"," Juan"," Stephen"," Harsh", " Jack");
 
 echo "\n" . $names ['1'];
 
+include 'header.php';
+
 ?>
 
 </body>

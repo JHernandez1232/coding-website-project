@@ -26,6 +26,9 @@
         default:
             echo "harsh is nothing";
     }
+
+    include 'header.php';
+
 ?>
 </body>
 </html>
