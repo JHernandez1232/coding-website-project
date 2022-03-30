@@ -20,9 +20,10 @@
     <br>
     <button type="submit" name="submit" value="submit">Calculate</button>
     </form>
-    <p> The answer is:</p>
-<?php
-    if (isset($_GET['sumbit'])) {
+    <p>The answer is:</p>
+
+    <?php
+    if (isset($_GET['submit'])) {
         $result1 = $_GET['num1'];
         $result2 = $_GET['num2'];
         $operator = $_GET['operator'];
@@ -44,7 +45,7 @@
             break;
         }
     }
-?>
+    ?>
 
 </body>
 </html>

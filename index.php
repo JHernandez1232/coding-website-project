@@ -30,11 +30,14 @@
 </a>
 
 <a href = "calculator.php">
-  <button> calculator1</button>
+  <button>calculator</button>
 </a>
 
+<a href = "calendar.php">
+  <button>calendar</button>
 
-
+<a href = "switch.php">
+  <button>switch</button>
 
   </body>
 </html>
