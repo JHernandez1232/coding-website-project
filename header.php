@@ -1,6 +1,5 @@
-<?php
-    include 'functions/user-functions.php';
-
+<php
+    session_start();
 ?>
 
 
@@ -35,7 +34,34 @@
         </mav>
     </header>
 
+    <?php
+    echo $_POST['name'];
+    ?>
 
+
+
+
+<?php
+setcookie("name", "juan", time() - 172800000);
+
+$_SESSION['username'] = "mahs_jhernandez"; 
+echo $_SESSION['username'];
+
+if (!isset($_SESSION['username'])) {
+    echo "You are not logged in!";
+}   else {
+    echo "You are logged in!";
+}
+
+?>
     
+<form method="POST">
+    <input type="hidden" name="name" value="juan">
+    <button type="submit">PRESS ME</button>
+</form>
+
 </body>
 </html>
+
+
+
