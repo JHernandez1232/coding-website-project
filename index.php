@@ -19,10 +19,16 @@
     <button>SUBMIT</button>
 </form>
 
+  <main>
+    <p>You are logged out!</p>
+    <p>You are logged in!</p>
+  </main>
+
+
   <?php
   $name = $_GET ['person'];
   echo $name." goes on to say that harsh likes to fly like a pony!!";
-  
+   
   include 'header.php';
 
   ?>
