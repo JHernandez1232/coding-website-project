@@ -23,6 +23,7 @@
             <li><a href="calendar.php">Calendar</a></li>
             <li><a href="index.php">Home</a></li>
             <li><a href="switch.php">switch</a></li>
+            <li><a href="signup.php">signup</a></li>
         </ul>
         <div>
             <form action="includes/login.inc.php" methods="post">
