@@ -1,12 +1,13 @@
-<?php 
-
-$servername = "My Server";
+<?php
+$dBServername = "localhost";
 $dBUsername = "mahs_jhernandez";
-$dBPassword = "mustangs"
-$dBName = "loginsystemtut";
+$dBPassword = "mustangs";
+$dBName = "mahs_jhernandez";
 
-$conn = mysquli_connect($servername, $dBUssername. $dBPasswrod, $dBName);
+// Create connection
+$conn = mysqli_connect($dBServername, $dBUsername, $dBPassword, $dBName);
 
-if (@$conn) {
-    die("Connection failed: ").mysqli_connect_error());
+// Check connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
 }
