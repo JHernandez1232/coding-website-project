@@ -34,27 +34,6 @@
           }
           ?>
           <form class="form-signup" action="includes/signup.inc.php" method="post">
-            <?php
-
-            if (!empty($_GET["uid"])) {
-              echo '<input type="text" name="uid" placeholder="Username" value="'.$_GET["uid"].'">';
-            }
-            else {
-              echo '<input type="text" name="uid" placeholder="Username">';
-            }
-
-            if (!empty($_GET["mail"])) {
-              echo '<input type="text" name="mail" placeholder="E-mail" value="'.$_GET["mail"].'">';
-            }
-            else {
-              echo '<input type="text" name="mail" placeholder="E-mail">';
-            }
-            ?>
-            <input type="password" name="pwd" placeholder="Password">
-            <input type="password" name="pwd-repeat" placeholder="Repeat password">
-            <button type="submit" name="signup-submit">Signup</button>
-          </form>
-          <form class="form-signup" action="includes/signup.inc.php" method="post">
             <input type="text" name="uid" placeholder="Username">
             <input type="text" name="mail" placeholder="E-mail">
             <input type="password" name="pwd" placeholder="Password">
